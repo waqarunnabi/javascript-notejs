@@ -92,11 +92,3 @@ console.log("Ternary " + (num1 > num2 ? num1 : num2));
 
 
 
-
-
-
-// let firstName = "John";
-// let lastName = "Doe";
-
-// console.log(firstName + " " + lastName);
-
