@@ -1,0 +1,25 @@
+Open Terminal:
+
+mkdir foldername
+cd foldername
+npm init (for load)
+
+create hello.mjs file
+node filename with extension (for run file in terminal)
+
+myUserInputProgram: 
+// write in terminator
+npm init
+"for nmp install prompt-sync"
+npm install prompt-sync
+
+// write code
+import PromptSync from "prompt-sync";
+// create a prompt object
+// create variable to hold the package
+const prompt = PromptSync();
+
+// prompt the user for input
+var userInput = prompt("Input Message: ");
+
+
