@@ -106,6 +106,21 @@
 
 
 
+// let greet = () => {
+//   console.log("Hello World!");
+// }
+
+// setTimeout(greet, 5000);
+
+
+function dosomething(num) {
+  console.log("Num in this iteration is: " + num);
+  if (num > 0) {
+    dosomething(--num);
+  }
+}
+
+dosomething(5);
 
 
 

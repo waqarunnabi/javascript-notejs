@@ -107,17 +107,33 @@ const days =[
 
 
 
-// multi dimensional array
-const array11 = [1,2,3,4,5];
-const array22 = [6,7,8,9,10];
-const array33 = [array11, array22];
-console.log(array33);
+// // multi dimensional array
+// const array11 = [1,2,3,4,5];
+// const array22 = [6,7,8,9,10];
+// const array33 = [array11, array22];
+// console.log(array33);
 
-// [0] = row and [2] = column
-console.log(array33[0][2]);
-console.log(array33[1][4]);
+// // [0] = row and [2] = column
+// console.log(array33[0][2]);
+// console.log(array33[1][4]);
 
 
 
+const aar1 = [1,2,3,4,5];
+const aar2 = aar1;
+
+console.log(aar1);
+console.log(aar2);
+aar2[0] = 10;
+console.log(aar1);
+console.log(aar2);
+
+
+// copy array with spread operator
+const aar3 = [...aar1];
+console.log(aar3);
+aar3[0] = 9;
+console.log(aar1);
+console.log(aar3);
 
 
