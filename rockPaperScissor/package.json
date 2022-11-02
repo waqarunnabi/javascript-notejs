@@ -11,5 +11,7 @@
     "prompt-sync": "^4.2.0",
     "random-int": "^3.0.0"
   },
+  "devDependencies": {},
+  "keywords": [],
   "description": ""
 }
