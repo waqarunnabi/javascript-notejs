@@ -1,0 +1,8 @@
+Download and Install Node first
+Open project folder
+type cmd on adress bar
+type node -v in cmd for version check
+type node in cmd
+type dir in cmd for directories
+type .exit in cmd for exit
+type node file name enter for run file

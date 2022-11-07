@@ -1,4 +1,0 @@
-Prettier - Code formatter
-Extention for auto formating Code
-Live Server Ritwick Dey
-Extention for go live
