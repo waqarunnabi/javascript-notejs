@@ -84,23 +84,65 @@ const prompt = PromptSync();
 
 
 
-const max = 10;
+// const max = 10;
 
-const randomNumber = Math.floor(Math.random() * max) + 1;
+// const randomNumber = Math.floor(Math.random() * max) + 1;
 
 
-let userInput = prompt("Guess a number between 1 and 10: You Have 3 Chances: ");
-for (let i = 1; i <3; i++) {
-    let chance = 3 - i;
-    // console.log(randomNumber);
-    userInput = prompt(`Please guess again, You Have ${chance} more Chances: `);
+// let userInput = prompt("Guess a number between 1 and 10: You Have 3 Chances: ");
+// for (let i = 1; i <3; i++) {
+//     let chance = 3 - i;
+//     // console.log(randomNumber);
+//     userInput = prompt(`Please guess again, You Have ${chance} more Chances: `);
+// }
+//     if (userInput != randomNumber) {
+//     console.log("You have lost the game");
+// }   else {
+//     console.log("You guessed it! The number was " + randomNumber);
+// }
+
+
+
+
+
+
+
+// // Nested For Loop
+
+// const products = ["Shirt", "Pant", "Shoes", "Socks", "T-Shirt"];
+// const gifts = ["Pen", "keychain", "Notebook", "Sticker", "Mug"];
+
+// for (let i = 0; i < products.length; i++){
+//     // console.log(products[i]);
+//     for (let j = 0; j < gifts.length; j++){
+
+//         console.log(products[i] + " _ " + gifts[j]);
+//     }
+// }
+
+
+// // Practice Exercise 5.5
+
+
+
+
+let car = {
+    make: "Land Rover",
+    model: "Defender",
+    year: 2023,
+    color: "Black",
 }
-    if (userInput != randomNumber) {
-    console.log("You have lost the game");
-}   else {
-    console.log("You guessed it! The number was " + randomNumber);
+
+// For In Loop
+// boject is car
+
+for (const key in car) {
+    // console.log(key);
+    console.log(car[key]);
+    
 }
 
+// // Practice Exercise 5.7
 
 
 
@@ -110,7 +152,13 @@ for (let i = 1; i <3; i++) {
 
 
 
-// Nested For Loop
+
+
+
+
+
+
+
 
 // for (let i = 0; i < 5; i--) {
 //     console.log("");
