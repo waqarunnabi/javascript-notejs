@@ -1,2 +1,2 @@
-# javascript-smarter
-Smarter way to learn 
+# javascript-Notejs
+learning javascript and node js
